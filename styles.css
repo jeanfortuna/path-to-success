@@ -149,3 +149,109 @@ main {
 #services article p {
     line-height: 1.5;
 }
+/* WHY CHOOSE US */
+
+#why-us {
+    background-color: var(--pink);
+    padding: 1rem;
+}
+
+#why-us h2 {
+    margin-bottom: 1rem;
+}
+
+#why-us ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .75rem;
+}
+
+#why-us li {
+    list-style: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#why-us li:nth-child(1) {
+    background: var(--teal);
+}
+
+#why-us li:nth-child(2) {
+    background: var(--lavender);
+}
+
+#why-us li:nth-child(3) {
+    background: var(--yellow);
+}
+
+#why-us li:nth-child(4) {
+    background: var(--white);
+    color: var(--dark-gray);
+}
+
+/* PRICING */
+
+#pricing {
+    padding: 1rem;
+}
+
+#pricing h3 {
+    color: var(--yellow);
+    margin: 1rem 0 .5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: var(--dark-gray);
+    margin-bottom: 1rem;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: .5rem;
+}
+
+th {
+    background: var(--yellow);
+}
+
+/* CONTACT */
+
+#contact {
+    background: var(--pink);
+    padding: 1rem;
+}
+
+#contact p {
+    margin: 1rem 0;
+}
+
+#contact a {
+    display: block;
+    text-align: center;
+    background: white;
+    color: var(--dark-gray);
+    padding: .8rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--purple);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+}
+
+footer a {
+    color: white;
+}
