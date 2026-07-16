@@ -111,3 +111,41 @@ body > nav a {
     text-transform: uppercase;
     font-weight: bold;
 }
+/* SERVICES */
+
+main {
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 1rem;
+}
+
+#services > h2 {
+    margin-bottom: 1rem;
+}
+
+#services h3 {
+    color: var(--yellow);
+    margin: 1rem 0 .75rem;
+}
+
+#services article {
+    background-color: var(--white);
+    color: var(--dark-gray);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#services article img {
+    width: 70px;
+    margin-bottom: .75rem;
+}
+
+#services article h4 {
+    color: var(--purple);
+    margin-bottom: .5rem;
+}
+
+#services article p {
+    line-height: 1.5;
+}
